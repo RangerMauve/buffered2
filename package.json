@@ -1,0 +1,35 @@
+{
+  "name": "buffered2",
+  "version": "1.0.0",
+  "description": "Buffered stream which saves data until it is piped somewhere",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RangerMauve/buffered2.git"
+  },
+  "keywords": [
+    "buffer",
+    "stream",
+    "transform",
+    "queue"
+  ],
+  "author": "rangermauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/buffered2/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/buffered2#readme",
+  "dependencies": {
+    "readable-stream": "^2.1.5"
+  },
+  "devDependencies": {
+		"array-to-stream": "^1.0.2",
+    "promise": "^7.1.1",
+    "stream-to-array": "^2.3.0",
+    "tape": "^4.6.0",
+    "through2": "^2.0.1"
+  }
+}
